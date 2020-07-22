@@ -1,3 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 767px) {
+}
+
+.row {
+    float: left;
+    margin: 1%;
+    border: solid 1px black;
+    background: aqua;
+    width: 31.33%;
+}
+
+.row div {
+    width: 100%;
+    float: right;
+}
+
+.row div .title {
+    float: right;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: solid 1px black;
+    width: 100px;
+    height: 27px;
+    font-size: 22px;
+}
+
+.row .body {
+    margin: 10px;
+}
+
+.row ._1 {
+    background: firebrick;
+}
+
+.row ._2 {
+    background: green;
+}
+
+.row ._3 {
+    background: yellow;
 }
