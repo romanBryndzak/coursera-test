@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+}
+
+/*HEADER*/
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 20px;
+    height: 70px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 25px;
+    line-height: 0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#navbarNav {
+    background-color: white;
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: wheat;
+}
+
+.navbar-header button.navbar-toggler, .navbar-header.navbar-toggler-icon {
+    border: 1px solid black;
+}
+
+/*END HEADER*/
+
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#body {
+    margin-left: 10px;
+}
+
+.rom {
+    float: left;
+    border: solid 1px black;
+    background: aqua;
+    padding: 0;
+    margin: 2px;
+}
+
+.rom div {
+    width: 100%;
+    float: right;
+}
+
+.rom div a {
+    float: left;
+}
+
+.rom div .title {
+    float: right;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: solid 1px black;
+    width: 110px;
+    height: 32px;
+    font-size: 22px;
+}
+
+.rom .body {
+    margin: 10px;
+}
+
+.rom #title1 {
+    background: firebrick;
+}
+
+.rom #title2 {
+    background: green;
+}
+
+.rom #title3 {
+    background: yellow;
+}
+
+/**********Large devices only******/
+@media (min-width: 1200px) {
+    .col-lg-4 {
+        width: 32.60%;
+    }
+}
+
+/**********Medium devices only******/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-lg-4 {
+        width: 32.60%;
+    }
+}
+
+/**********Small devices only******/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 49.40%;
+    }
+
+    .col-md-12 {
+        width: 99.40%;
+    }
+}
+
+/**********Extra small devices only******/
+@media (max-width: 767px) {
+    /*Header*/
+    .navbar-brand {
+        padding-top: 10px;
+        height: 70px;
+    }
+
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+
+    #navbarNav a {
+        font-size: 1.2em;
+    }
+
+    /*END HEADER*/
+    .rom {
+        width: 94%;
+        margin-bottom: 1%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+
+/*@media (min-width: 992px) {*/
+/*    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4,*/
+/*    .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,*/
+/*    .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {*/
+/*        margin: 0.30%;*/
+/*    }*/
+
+/*    .col-lg-1 {*/
+/*        width: 8.33%;*/
+/*    }*/
+
+/*    .col-lg-2 {*/
+/*        width: 16.66%;*/
+/*    }*/
+
+/*    .col-lg-3 {*/
+/*        width: 25%;*/
+/*    }*/
+
+/*    .col-lg-4 {*/
+/*        width: 32.60%;*/
+/*    }*/
+
+/*    .col-lg-5 {*/
+/*        width: 41.66%;*/
+/*    }*/
+
+/*    .col-lg-6 {*/
+/*        width: 50%;*/
+/*    }*/
+
+/*    .col-lg-7 {*/
+/*        width: 58.33%;*/
+/*    }*/
+
+/*    .col-lg-8 {*/
+/*        width: 66.66%;*/
+/*    }*/
+
+/*    .col-lg-9 {*/
+/*        width: 74.99%;*/
+/*    }*/
+
+/*    .col-lg-10 {*/
+/*        width: 83.33%;*/
+/*    }*/
+
+/*    .col-lg-11 {*/
+/*        width: 91.66%;*/
+/*    }*/
+
+/*    .col-lg-12 {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
