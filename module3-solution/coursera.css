@@ -33,6 +33,9 @@ body {
     text-decoration: none;
 }
 
+nav #navbarNav li{
+    border: solid 1px black;
+}
 #navbarNav {
     background-color: white;
 }
