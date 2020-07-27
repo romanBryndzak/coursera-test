@@ -60,6 +60,7 @@ h2 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 #body {
@@ -79,35 +80,13 @@ h2 {
     float: right;
 }
 
-.rom div a {
-    float: left;
-}
-
 .rom div .title {
-    float: right;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    border: solid 1px black;
-    width: 110px;
-    height: 32px;
-    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .rom .body {
     margin: 10px;
-}
-
-.rom #title1 {
-    background: firebrick;
-}
-
-.rom #title2 {
-    background: green;
-}
-
-.rom #title3 {
-    background: yellow;
 }
 
 /**********Large devices only******/
