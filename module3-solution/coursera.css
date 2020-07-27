@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-}
-
 /*HEADER*/
 #header-nav {
     background-color: grey;
@@ -33,9 +30,10 @@ body {
     text-decoration: none;
 }
 
-nav #navbarNav li{
+nav #navbarNav li {
     border: solid 1px black;
 }
+
 #navbarNav {
     background-color: white;
 }
@@ -54,7 +52,6 @@ nav #navbarNav li{
 }
 
 /*END HEADER*/
-
 
 h2 {
     text-align: center;
